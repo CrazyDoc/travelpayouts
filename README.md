@@ -15,8 +15,8 @@ Prerequisites
 [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) - Getting Started - Installing Git  
 [Watir](http://watir.com/guides/) - Watir Guides  
 [Ruby](http://watir.com/guides/ruby/) - Installing Ruby  
-[Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/) - Chrome driver
-[RVM](https://rvm.io/rvm/install) - Ruby enVironment (Version) Manager  
+[Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/) - Chrome driver  
+[RVM](https://rvm.io/rvm/install) - Ruby enVironment (Version) Manager    
 
 How to install this project
 -------------
