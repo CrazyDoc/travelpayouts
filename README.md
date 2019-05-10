@@ -13,13 +13,15 @@ These instructions will get you a copy of the project up and running on your loc
 Prerequisites
 --------------  
 [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) - Getting Started - Installing Git  
-[Watir](http://watir.com/guides/) - Watir Guides
-[Ruby](http://watir.com/guides/ruby/) - Installing Ruby
-[Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/) - Download Chrome driver
- 
+[Watir](http://watir.com/guides/) - Watir Guides  
+[Ruby](http://watir.com/guides/ruby/) - Installing Ruby  
+[Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/) - Chrome driver
+[RVM](https://rvm.io/rvm/install) - Ruby enVironment (Version) Manager  
+
 How to install this project
 -------------
-git clone https://github.com/Pavelya/QA-Panda  
+git clone https://github.com/Pavelya/travelpayouts.git  
+bundle install  
 
 How to manage chrome driver
 -------------
@@ -27,8 +29,9 @@ How to manage chrome driver
 1. Download the ChromeDriver executable
 2. Edit /etc/paths with chromedriver path
 
-Full instruction can be found there (external side, can't garanty if avalible 100%): 
-https://www.kenst.com/2015/03/including-the-chromedriver-location-in-macos-system-path/ 
+Full instruction can be found there (external side, can't garanty if avalible 100%):  
+[Here](https://www.kenst.com/2015/03/including-the-chromedriver-location-in-macos-system-path/) - Including the ChromeDriver location in MacOS System PATH 
+ 
 
 How to manage enable / disable headless chrome
 -------------
