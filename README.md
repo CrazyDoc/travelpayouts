@@ -45,8 +45,7 @@ http://watir.com/guides/chrome/#headless
 Running the tests - command line mode
 -------------------
 cd to project path  
-
-cucumber features/%feature_file%.feature
+cucumber -r features --tags ~@wip --color --format pretty --format html -o results.html  
 
 Authors
 -------------

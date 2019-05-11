@@ -44,6 +44,19 @@ GEM
       data_magic (>= 0.22)
     rake (12.3.2)
     regexp_parser (1.4.0)
+    rspec (3.8.0)
+      rspec-core (~> 3.8.0)
+      rspec-expectations (~> 3.8.0)
+      rspec-mocks (~> 3.8.0)
+    rspec-core (3.8.0)
+      rspec-support (~> 3.8.0)
+    rspec-expectations (3.8.3)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.8.0)
+    rspec-mocks (3.8.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.8.0)
+    rspec-support (3.8.0)
     rubyzip (1.2.2)
     selenium-webdriver (3.142.1)
       childprocess (>= 0.5, < 2.0)
@@ -51,6 +64,8 @@ GEM
     watir (6.16.5)
       regexp_parser (~> 1.2)
       selenium-webdriver (~> 3.6)
+    watir-webdriver (0.9.9)
+      selenium-webdriver (>= 2.46.2)
     webdrivers (3.9.0)
       nokogiri (~> 1.6)
       rubyzip (~> 1.0)
@@ -63,7 +78,10 @@ PLATFORMS
 DEPENDENCIES
   cucumber
   page-object
+  rspec
+  rspec-core
   watir
+  watir-webdriver
   webdrivers
 
 BUNDLED WITH
