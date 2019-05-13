@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7458b665-536c-4d6e-bf66-e7ade5a07f9b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/cucumber-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cucumber-test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/FAILED_Open_main_page.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/openMainPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/openMainPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/pages/travelpayouts_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/pages/travelpayouts_page.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/open_page_step.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/open_page_step.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/support/test_data/test_data.yml" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/test_data/test_data.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,17 +21,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/pages/travelpayouts_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="54" />
+            <state relative-caret-position="141">
+              <caret line="59" column="30" lean-forward="true" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/lib/common.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="66" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/test_data/test_data.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/openMainPage.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="90">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -35,29 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/open_page_step.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="192">
-                <caret line="47" column="89" selection-start-line="47" selection-start-column="89" selection-end-line="47" selection-end-column="89" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+            <state relative-caret-position="180">
+              <caret line="18" column="75" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -65,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/env.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="105">
+              <caret line="7" column="56" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -77,6 +87,8 @@
     <findStrings>
       <find>'</find>
       <find>cucumber/ast/scenario</find>
+      <find>css</find>
+      <find>#hotels-destination-whitelabel_en</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -89,26 +101,27 @@
         <option value="$PROJECT_DIR$/features/step_definitions/amazon_search_step.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/amazon_search_step.rb" />
         <option value="$PROJECT_DIR$/LICENSE.md" />
-        <option value="$PROJECT_DIR$/features/step_definitions/open_page_step.rb" />
         <option value="$PROJECT_DIR$/cucumber.yml" />
         <option value="$PROJECT_DIR$/features/support/reporting_spec.rb" />
-        <option value="$PROJECT_DIR$/features/openMainPage.feature" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/features/support/test_data/search_test_data.yml" />
         <option value="$PROJECT_DIR$/features/support/lib/common.rb" />
-        <option value="$PROJECT_DIR$/features/support/test_data/test_data.yml" />
-        <option value="$PROJECT_DIR$/features/pages/travelpayouts_page.rb" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/gitignore" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/features/support/lib/logger.rb" />
+        <option value="$PROJECT_DIR$/features/support/test_data/test_data.yml" />
+        <option value="$PROJECT_DIR$/features/support/env.rb" />
+        <option value="$PROJECT_DIR$/features/pages/travelpayouts_page.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/open_page_step.rb" />
+        <option value="$PROJECT_DIR$/features/openMainPage.feature" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="7" />
-    <option name="y" value="38" />
-    <option name="width" value="1266" />
-    <option name="height" value="668" />
+    <option name="x" value="6" />
+    <option name="y" value="36" />
+    <option name="width" value="1268" />
+    <option name="height" value="672" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -162,6 +175,11 @@
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="support" type="462c0819:PsiDirectoryNode" />
               <item name="test_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travelpayouts_qa_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travelpayouts_qa_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,44 +326,53 @@
       <updated>1557434861906</updated>
       <workItem from="1557434865188" duration="4655000" />
       <workItem from="1557466014409" duration="564000" />
-      <workItem from="1557521881468" duration="14599000" />
+      <workItem from="1557521881468" duration="30425000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="openMainPage_feature - 2019.05.11 at 19h 58m 15s.xml">
+    <history-entry file="openMainPage_feature - 2019.05.13 at 23h 45m 38s.xml">
       <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="openMainPage_feature - 2019.05.11 at 19h 59m 41s.xml">
+    <history-entry file="openMainPage_feature - 2019.05.13 at 23h 46m 38s.xml">
       <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="openMainPage_feature - 2019.05.11 at 20h 00m 23s.xml">
+    <history-entry file="openMainPage_feature - 2019.05.13 at 23h 47m 46s.xml">
       <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="openMainPage_feature - 2019.05.12 at 00h 31m 19s.xml">
+    <history-entry file="openMainPage_feature - 2019.05.13 at 23h 50m 19s.xml">
       <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="openMainPage_feature - 2019.05.12 at 00h 32m 30s.xml">
+    <history-entry file="openMainPage_feature - 2019.05.13 at 23h 53m 22s.xml">
       <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="openMainPage_feature - 2019.05.12 at 01h 07m 36s.xml">
+    <history-entry file="openMainPage_feature - 2019.05.13 at 23h 55m 50s.xml">
       <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="openMainPage_feature - 2019.05.12 at 01h 08m 26s.xml">
+    <history-entry file="openMainPage_feature - 2019.05.14 at 00h 00m 17s.xml">
       <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="openMainPage_feature - 2019.05.12 at 01h 22m 53s.xml">
+    <history-entry file="openMainPage_feature - 2019.05.14 at 00h 01m 25s.xml">
       <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="openMainPage_feature - 2019.05.12 at 01h 23m 39s.xml">
+    <history-entry file="openMainPage_feature - 2019.05.14 at 00h 02m 50s.xml">
       <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="openMainPage_feature - 2019.05.12 at 01h 24m 18s.xml">
+    <history-entry file="openMainPage_feature - 2019.05.14 at 00h 06m 16s.xml">
       <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19818000" />
+    <option name="totallyTimeSpent" value="35644000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="698" extended-state="6" />
@@ -360,7 +387,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
@@ -372,13 +399,35 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" visible="true" weight="0.32838285" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/travelpayouts_qa_automation@travelpayouts_page.rcov" NAME="travelpayouts_page Coverage Results" MODIFIED="1557595295555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/pages" MODULE_NAME="cucumber-test" />
-    <SUITE FILE_PATH="coverage/travelpayouts_qa_automation@openMainPage_feature.rcov" NAME="openMainPage.feature Coverage Results" MODIFIED="1557617051900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber-test" />
+    <SUITE FILE_PATH="coverage/travelpayouts_qa_automation@openMainPage_feature.rcov" NAME="openMainPage.feature Coverage Results" MODIFIED="1557785123747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber-test" />
     <SUITE FILE_PATH="coverage/cucumber_test@openMainPage_feature.rcov" NAME="openMainPage.feature Coverage Results" MODIFIED="1557439417050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber-test" />
     <SUITE FILE_PATH="coverage/cucumber_test@amazonsearch_feature.rcov" NAME="amazonsearch.feature Coverage Results" MODIFIED="1557437024060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber-test" />
   </component>
@@ -450,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0/yaml.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -468,27 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/test_data/test_data.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.3/gems/page-object-2.2.6/lib/page-object/accessors.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/lib/common.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="66" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -510,27 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/openMainPage.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/open_page_step.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/pages/travelpayouts_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/screenshots/FAILED_Open_main_page.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -544,17 +544,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.3/gems/rspec-expectations-3.8.3/lib/rspec/expectations.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/lib/logger.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.3/gems/page-object-2.2.6/lib/page-object/accessors.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5836">
+          <caret line="195" column="56" selection-start-line="195" selection-start-column="56" selection-end-line="195" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.3/gems/page-object-2.2.6/lib/page-object.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs26/object.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2802">
+          <caret line="345" column="8" selection-start-line="345" selection-start-column="8" selection-end-line="345" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.3/gems/selenium-webdriver-3.142.1/lib/selenium/webdriver/common/element.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="154" column="19" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/test_data/test_data.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/lib/common.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/travelpayouts_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="59" column="30" lean-forward="true" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/open_page_step.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="75" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/FAILED_Search_for_hotel.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/openMainPage.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>

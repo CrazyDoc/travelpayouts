@@ -1,9 +1,3 @@
 urls:
   prod: 'http://whitelabel.travelpayouts.com/'
   dev: 'http://whitelabel.travelpayouts.com/'
-
-default_user:
-  email: asdf@asdf.com
-  password: asdf
-  confirmPassword: asdf2
-  username: asdf

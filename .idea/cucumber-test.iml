@@ -38,7 +38,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rubyzip (v1.2.2, RVM: ruby-2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v3.142.1, RVM: ruby-2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="watir (v6.16.5, RVM: ruby-2.6.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="watir-page-helper (v1.0.3, RVM: ruby-2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="watir-rspec (v3.0.0, RVM: ruby-2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="watir-webdriver (v0.9.9, RVM: ruby-2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="webdrivers (v3.9.0, RVM: ruby-2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="yml_reader (v0.7, RVM: ruby-2.6.3) [gem]" level="application" />

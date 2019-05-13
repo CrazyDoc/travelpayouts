@@ -7,4 +7,3 @@ gem 'webdrivers'
 gem 'rspec'
 gem 'rspec-core'
 gem "watir-webdriver"
-gem "page-object"
