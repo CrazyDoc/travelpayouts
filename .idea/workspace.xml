@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7458b665-536c-4d6e-bf66-e7ade5a07f9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/features/searchHotel.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/step_definitions/hotels_page_step.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/cucumber-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cucumber-test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/openMainPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/openMainPage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/pages/travelpayouts_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/pages/travelpayouts_page.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/open_page_step.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/open_page_step.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/support/test_data/test_data.yml" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/test_data/test_data.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/openMainPage.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/pages/travelpayouts_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/pages/hotels_page.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/open_page_step.rb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/pages/travelpayouts_page.rb">
+        <entry file="file://$PROJECT_DIR$/features/searchHotel.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="59" column="30" lean-forward="true" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="30" />
+            <state relative-caret-position="90">
+              <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -32,6 +32,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/hotels_page_step.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -46,28 +55,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/test_data/test_data.yml">
+        <entry file="file://$PROJECT_DIR$/features/pages/hotels_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/openMainPage.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/open_page_step.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" column="75" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="75" />
+            <state relative-caret-position="218">
+              <caret line="98" column="19" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -76,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/features/support/env.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="56" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="56" />
+              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -89,6 +80,9 @@
       <find>cucumber/ast/scenario</find>
       <find>css</find>
       <find>#hotels-destination-whitelabel_en</find>
+      <find>div.mewtwo-hotels-submit_button</find>
+      <find>li</find>
+      <find>input</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,18 +104,23 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/features/support/lib/logger.rb" />
         <option value="$PROJECT_DIR$/features/support/test_data/test_data.yml" />
-        <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/features/pages/travelpayouts_page.rb" />
-        <option value="$PROJECT_DIR$/features/step_definitions/open_page_step.rb" />
         <option value="$PROJECT_DIR$/features/openMainPage.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/open_page_step.rb" />
+        <option value="$PROJECT_DIR$/features/searchHotel.feature" />
+        <option value="$PROJECT_DIR$/features/pages/flights_page.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/flights_page_step.rb" />
+        <option value="$PROJECT_DIR$/features/support/env.rb" />
+        <option value="$PROJECT_DIR$/features/searchFlight.feature" />
+        <option value="$PROJECT_DIR$/features/pages/hotels_page.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/hotels_page_step.rb" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="6" />
-    <option name="y" value="36" />
-    <option name="width" value="1268" />
-    <option name="height" value="672" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="698" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -131,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,30 +174,27 @@
               <item name="support" type="462c0819:PsiDirectoryNode" />
               <item name="test_data" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="travelpayouts_qa_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travelpayouts_qa_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/features/support" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/features" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/features/support" />
-      <recent name="$PROJECT_DIR$/features/pages" />
       <recent name="$PROJECT_DIR$/features" />
+      <recent name="$PROJECT_DIR$/features/step_definitions" />
+      <recent name="$PROJECT_DIR$/features/pages" />
+      <recent name="$PROJECT_DIR$/features/support" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -272,7 +267,43 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/openMainPage.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/searchHotel.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method v="2" />
+    </configuration>
+    <configuration name="searchFlight.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <module name="cucumber-test" />
+      <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/searchFlight.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
@@ -308,6 +339,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber.openMainPage.feature" />
+        <item itemvalue="Cucumber.searchFlight.feature" />
         <item itemvalue="Ruby.travelpayouts_page" />
         <item itemvalue="Cucumber.amazonsearch.feature" />
       </list>
@@ -326,44 +358,45 @@
       <updated>1557434861906</updated>
       <workItem from="1557434865188" duration="4655000" />
       <workItem from="1557466014409" duration="564000" />
-      <workItem from="1557521881468" duration="30425000" />
+      <workItem from="1557521881468" duration="31394000" />
+      <workItem from="1557860471169" duration="9576000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="openMainPage_feature - 2019.05.13 at 23h 45m 38s.xml">
+    <history-entry file="openMainPage_feature - 2019.05.14 at 23h 10m 48s.xml">
       <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="openMainPage_feature - 2019.05.13 at 23h 46m 38s.xml">
+    <history-entry file="openMainPage_feature - 2019.05.14 at 23h 19m 58s.xml">
       <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="openMainPage_feature - 2019.05.13 at 23h 47m 46s.xml">
+    <history-entry file="openMainPage_feature - 2019.05.14 at 23h 22m 20s.xml">
       <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="openMainPage_feature - 2019.05.13 at 23h 50m 19s.xml">
+    <history-entry file="openMainPage_feature - 2019.05.14 at 23h 24m 50s.xml">
       <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="openMainPage_feature - 2019.05.13 at 23h 53m 22s.xml">
+    <history-entry file="searchFlight_feature - 2019.05.14 at 23h 39m 42s.xml">
+      <configuration name="searchFlight.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="searchFlight_feature - 2019.05.14 at 23h 40m 07s.xml">
+      <configuration name="searchFlight.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="searchFlight_feature - 2019.05.14 at 23h 40m 59s.xml">
+      <configuration name="searchFlight.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="searchFlight_feature - 2019.05.14 at 23h 41m 55s.xml">
+      <configuration name="searchFlight.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="openMainPage_feature - 2019.05.14 at 23h 42m 33s.xml">
       <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="openMainPage_feature - 2019.05.13 at 23h 55m 50s.xml">
-      <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="openMainPage_feature - 2019.05.14 at 00h 00m 17s.xml">
-      <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="openMainPage_feature - 2019.05.14 at 00h 01m 25s.xml">
-      <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="openMainPage_feature - 2019.05.14 at 00h 02m 50s.xml">
-      <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="openMainPage_feature - 2019.05.14 at 00h 06m 16s.xml">
+    <history-entry file="openMainPage_feature - 2019.05.14 at 23h 46m 42s.xml">
       <configuration name="openMainPage.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35644000" />
+    <option name="totallyTimeSpent" value="46189000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,7 +411,7 @@
     <frame x="0" y="23" width="1280" height="698" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -427,7 +460,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/travelpayouts_qa_automation@travelpayouts_page.rcov" NAME="travelpayouts_page Coverage Results" MODIFIED="1557595295555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/pages" MODULE_NAME="cucumber-test" />
-    <SUITE FILE_PATH="coverage/travelpayouts_qa_automation@openMainPage_feature.rcov" NAME="openMainPage.feature Coverage Results" MODIFIED="1557785123747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber-test" />
+    <SUITE FILE_PATH="coverage/travelpayouts_qa_automation@searchFlight_feature.rcov" NAME="searchFlight.feature Coverage Results" MODIFIED="1557870111452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber-test" />
+    <SUITE FILE_PATH="coverage/travelpayouts_qa_automation@openMainPage_feature.rcov" NAME="openMainPage.feature Coverage Results" MODIFIED="1557870295382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber-test" />
     <SUITE FILE_PATH="coverage/cucumber_test@openMainPage_feature.rcov" NAME="openMainPage.feature Coverage Results" MODIFIED="1557439417050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber-test" />
     <SUITE FILE_PATH="coverage/cucumber_test@amazonsearch_feature.rcov" NAME="amazonsearch.feature Coverage Results" MODIFIED="1557437024060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber-test" />
   </component>
@@ -444,19 +478,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screenshot.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshot.png" />
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="90" selection-start-column="90" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cucumber.yml" />
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.3/gems/pretty_face-0.10.3/lib/pretty_face/formatter/html.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -464,13 +490,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/reporting_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/reporting_spec.rb" />
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.3/gems/watir-6.16.5/lib/watir/elements/hidden.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -520,20 +540,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/FAILED_Open_main_page.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/results.html" />
+    <entry file="file://$PROJECT_DIR$/screenshots/FAILED_Open_main_page.png" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -554,16 +562,8 @@
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.3/gems/rspec-expectations-3.8.3/lib/rspec/expectations.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/lib/logger.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb" />
+    <entry file="file://$PROJECT_DIR$/features/support/lib/logger.rb" />
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.3/gems/page-object-2.2.6/lib/page-object/accessors.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5836">
@@ -592,17 +592,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/screenshots/FAILED_Search_for_hotel.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.3/gems/selenium-webdriver-3.142.1/lib/selenium/webdriver/common/action_builder.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="-521">
+          <caret line="211" column="7" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/test_data/test_data.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        <state relative-caret-position="15">
+          <caret line="1" column="45" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.3/gems/selenium-webdriver-3.142.1/lib/selenium/webdriver/common/interactions/pointer_actions.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="357" column="21" selection-start-line="357" selection-start-column="10" selection-end-line="357" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/travelpayouts_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -616,31 +640,49 @@
     <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="56" />
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/pages/travelpayouts_page.rb">
+    <entry file="file://$PROJECT_DIR$/features/pages/flights_page.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="59" column="30" lean-forward="true" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="30" />
+        <state relative-caret-position="198">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/open_page_step.rb">
+    <entry file="file://$PROJECT_DIR$/features/searchFlight.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="75" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="75" />
+        <state relative-caret-position="135">
+          <caret line="9" column="23" lean-forward="true" selection-end-line="9" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/FAILED_Search_for_hotel.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/flights_page_step.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/openMainPage.feature">
+    <entry file="file://$PROJECT_DIR$/features/searchHotel.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/hotels_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="98" column="19" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/hotels_page_step.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
         </state>
       </provider>
     </entry>

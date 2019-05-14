@@ -1,4 +1,4 @@
-class Travelpayouts_page
+class Hotels_page
 
   Common.get_url('prod')
 
@@ -42,14 +42,14 @@ class Travelpayouts_page
 
   def search_hotel
     current_time = DateTime.now
-    currentDate = current_time.strftime '%Y-%m-%d'
-    Watir.logger.info('Search hotel by valid city name')
+    currentDate = current_time.strftime '%Y-%_M-%d'
+    Watir.logger.info('Search hotel by city name')
     @browser.input(css: '#hotels-destination-whitelabel_en').send_keys('Mo')
     @browser.li(xpath: '/html/body/div[2]/div/div/ul/li[1]').click
     Watir.logger.info('Click on check in box')
     @browser.div(css: 'div.mewtwo-hotels-dates-checkin').click
     # TODO: check how to get one day month value
-    # @browser.div(css: 'td#mewtwo-datepicker-' + currentDate).click
+    #@browser.div(css: 'td#mewtwo-datepicker-' + currentDate).click
     Watir.logger.info('Increase number of guests')
     @browser.div(css: 'div.mewtwo-hotels-guests').click
     @browser.span(xpath: '/html/body/div[2]/div/div/div[1]/div[2]/span[3]').click
@@ -69,6 +69,38 @@ class Travelpayouts_page
     end
   end
 
+  def navigate_to_hotel_detailed_page
+    Watir.logger.info('navigate to hotel detailed page')
+    @browser.div(css: 'div.card-hotel_name').click
+    @browser.window(index: 1).use
+  end
+
+  def validate_hotel_detailed_page
+    Watir.logger.info('validate hotel detailed page')
+    @browser.span(css: 'span.hotel_page-serp_link__link.hotel_page-serp_link__link--crumbs').click
+    Watir.logger.info('Validate address displayed')
+    @browser.div(css: 'div.hotel_page-info').click
+    Watir.logger.info('Validate rating displayed')
+    @browser.div(css: 'div.hotel_page-reviews_details').click
+  end
+
+  def click_on_parther_link
+    Watir.logger.info('Click on partner price link')
+    sleep 20
+    @browser.a(css: 'a.card-gates_list-item-deeplink').click
+    @browser.window(index: 1).use
+    sleep 5
+    if (browser.url == Common.get_url('prod'))
+      fail
+    end
+  end
+
+
+  def search_flight
+    Watir.logger.info('Search flight by city name')
+    @browser.span(xpath: '//*[@id="tpwl-main-form"]/div/div[1]/nav/ul/li[1]/span').click
+    @browser.input(css: 'input#flights-origin-prepop-whitelabel_en').send_keys('Mo')
+  end
   def close
     @browser.close
   end
