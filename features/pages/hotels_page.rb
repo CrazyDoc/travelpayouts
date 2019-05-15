@@ -97,10 +97,51 @@ class Hotels_page
 
 
   def search_flight
-    Watir.logger.info('Search flight by city name')
+    current_time = DateTime.now
+    currentDate = current_time.strftime '%Y-%m-%d'
+    Watir.logger.info(currentDate)
+    Watir.logger.info('Switch to flights')
     @browser.span(xpath: '//*[@id="tpwl-main-form"]/div/div[1]/nav/ul/li[1]/span').click
-    @browser.input(css: 'input#flights-origin-prepop-whitelabel_en').send_keys('Mo')
+    Watir.logger.info('Search origin by city name')
+    @browser.input(css: 'input#flights-origin-prepop-whitelabel_en').send_keys('Moscow')
+    Watir.logger.info('Click on first origin search result')
+    @browser.li(css: 'li.mewtwo-autocomplete-list-item.mewtwo-autocomplete-list-item--shifted').click
+    Watir.logger.info('Search destination by city name')
+    @browser.input(css: 'input#flights-destination-prepop-whitelabel_en').send_keys('Paris')
+    @browser.li(css: 'li.mewtwo-autocomplete-list-item').click
+    Watir.logger.info('Click on depart date box')
+    @browser.div(css: 'div.mewtwo-flights-dates-depart').click
+    Watir.logger.info('Click on passenger box')
+    @browser.div(css: '.mewtwo-flights-trip_class-wrapper.mewtwo-flights-trip_class-wrapper').click
+    Watir.logger.info('Increase mumber of passengers')
+    @browser.span(css: 'span.mewtwo-popup-ages-counter__plus').click
+    Watir.logger.info('Click on submit search')
+    @browser.div(css: 'div.mewtwo-flights-submit_button').click
+end
+
+    def validate_search_results
+      Watir.logger.info('Validate search results')
+      @browser.div(css: 'div.ticket-action-button.ticket-action-button--').click
+      Watir.logger.info('Validate redirect to partner site')
+      @browser.window(index: 1).use
+      if (browser.url == Common.get_url('prod'))
+        fail
+      end
+    end
+
+  def click_on_special_price_button
+    sleep 30
+    @browser.span(xpath: '//*[@id="tpwl-main-form"]/div/div[1]/nav/ul/li[1]/span').click
+
   end
+
+  def change_currency
+    Watir.logger.info('Select currenct')
+    @browser.div(css: 'div.user-settings-informer').click
+    @browser.li(css: 'li.user-settings-selector-currencies-list__item').click
+  end
+
+
   def close
     @browser.close
   end

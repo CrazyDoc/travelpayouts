@@ -30,11 +30,19 @@ Then(/^user is redirected to partner side after click on partner price link sugg
   @travelpayouts_page.click_on_parther_link
 end
 
-Then(/^user search for flight in flights search form$/) do
+Then(/^user can search for flight in flights search form$/) do
   @travelpayouts_page.search_flight
+  @travelpayouts_page.validate_search_results
 end
 
+Then(/^user can click on special price link from flights search results$/) do
+  @travelpayouts_page.search_flight
+  @travelpayouts_page.click_on_special_price_button
+end
 
+Then(/^user changes the currency value$/) do
+  @travelpayouts_page.change_currency
+end
 
 
 Then(/^user closes travelpayouts page$/) do
