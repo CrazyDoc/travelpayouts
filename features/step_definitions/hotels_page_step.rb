@@ -48,6 +48,9 @@ Then(/^user can change the language value$/) do
   @travelpayouts_page.change_language
 end
 
+Then(/^footer is displayed with valid content$/) do
+  @travelpayouts_page.footer_validation
+  end
 
 Then(/^user closes travelpayouts page$/) do
   @travelpayouts_page.close

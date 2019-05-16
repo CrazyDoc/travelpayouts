@@ -12,7 +12,6 @@ Feature: Search hotel
   Scenario: Open hotel detailed page
     When user clicks on hotel name for the first suggested hotel
     Then the page with hotel details is displayed with valid content
-    And user closes travelpayouts page
 
   Scenario: Book hotel from selected provider
     Then user is redirected to partner side after click on partner price link suggested hotel

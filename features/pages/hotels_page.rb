@@ -157,6 +157,18 @@ end
     end
   end
 
+  def footer_validation
+    Watir.logger.info('Close cookie banner')
+    @browser.button(css: 'button.policy-bar__close').click
+    Watir.logger.info('Verify footer is shown')
+    @browser.div(css: 'div.user-settings-informer').click
+    @browser.goto Common.get_url('prod')
+    Watir.logger.info('Validate copyright section')
+    Watir.logger.info(@browser.div(css: 'div.TPWL-footer-content__copyright').text)
+    @browser.goto Common.get_url('prod')
+    Watir.logger.info('Validate terms section')
+    Watir.logger.info(@browser.div(css: 'div.TPWL-footer-content__descrition').text)
+  end
   def close
     @browser.close
   end
