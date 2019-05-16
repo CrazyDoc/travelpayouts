@@ -40,11 +40,16 @@ Then(/^user can click on special price link from flights search results$/) do
   @travelpayouts_page.click_on_special_price_button
 end
 
-Then(/^user changes the currency value$/) do
+Then(/^user can change the currency value$/) do
   @travelpayouts_page.change_currency
+end
+
+Then(/^user can change the language value$/) do
+  @travelpayouts_page.change_language
 end
 
 
 Then(/^user closes travelpayouts page$/) do
   @travelpayouts_page.close
 end
+

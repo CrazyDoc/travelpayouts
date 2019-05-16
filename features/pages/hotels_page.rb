@@ -137,10 +137,25 @@ end
 
   def change_currency
     Watir.logger.info('Select currenct')
+    sleep 5
     @browser.div(css: 'div.user-settings-informer').click
-    @browser.li(css: 'li.user-settings-selector-currencies-list__item').click
+    sleep 5
+    currencyList = @browser.lis(css: 'li.user-settings-selector-currencies-list__item')
+    currencyList[1].click
   end
 
+  def change_language
+    Watir.logger.info('Select language')
+    sleep 5
+    @browser.div(css: 'div.user-settings-informer').click
+    sleep 5
+    #browser.div(id: 'div.user-settings-selector-content').li(text: /Belarus/).click
+    @browser.a(xpath: '/html/body/div[1]/div/div[2]/div[1]/div[1]/div[1]/div/div[1]/div[3]/div/div[2]/ul/li[5]/a').click
+    sleep 5
+    if (browser.url != 'http://whitelabel.travelpayouts.com/?locale=be')
+      fail
+    end
+  end
 
   def close
     @browser.close
