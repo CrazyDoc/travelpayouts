@@ -65,7 +65,7 @@ class Hotels_page
     @browser.div(css: 'div.main_gate-button').click
     sleep 5
     if (browser.url == Common.get_url('prod'))
-        fail
+      fail
     end
   end
 
@@ -117,22 +117,24 @@ class Hotels_page
     @browser.span(css: 'span.mewtwo-popup-ages-counter__plus').click
     Watir.logger.info('Click on submit search')
     @browser.div(css: 'div.mewtwo-flights-submit_button').click
-end
+  end
 
-    def validate_search_results
-      Watir.logger.info('Validate search results')
-      @browser.div(css: 'div.ticket-action-button.ticket-action-button--').click
-      Watir.logger.info('Validate redirect to partner site')
-      @browser.window(index: 1).use
-      if (browser.url == Common.get_url('prod'))
-        fail
-      end
+  def validate_search_results
+    Watir.logger.info('Validate search results')
+    @browser.div(css: 'div.ticket-action-button.ticket-action-button--').click
+    Watir.logger.info('Validate redirect to partner site')
+    @browser.window(index: 1).use
+    if (browser.url == Common.get_url('prod'))
+      fail
     end
+  end
 
   def click_on_special_price_button
-    sleep 30
-    @browser.span(xpath: '//*[@id="tpwl-main-form"]/div/div[1]/nav/ul/li[1]/span').click
-
+    sleep 10
+    if ((@browser.a(xpath: '//a[contains(@href,\'searches\')]')).text).length > 0
+      @browser.a(xpath: '//a[contains(@href,\'searches\')]').click
+    end
+    sleep 10
   end
 
   def change_currency
@@ -149,7 +151,6 @@ end
     sleep 5
     @browser.div(css: 'div.user-settings-informer').click
     sleep 5
-    #browser.div(id: 'div.user-settings-selector-content').li(text: /Belarus/).click
     @browser.a(xpath: '/html/body/div[1]/div/div[2]/div[1]/div[1]/div[1]/div/div[1]/div[3]/div/div[2]/ul/li[5]/a').click
     sleep 5
     if (browser.url != 'http://whitelabel.travelpayouts.com/?locale=be')
@@ -178,9 +179,4 @@ end
     Watir.logger.info('Validate descrition section')
     Watir.logger.info(@browser.div(css: 'div.TPWL-header-content__descrition').text)
   end
-
-  def close
-    @browser.close
-  end
-
 end

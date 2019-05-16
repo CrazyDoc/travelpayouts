@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7458b665-536c-4d6e-bf66-e7ade5a07f9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/features/header.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/pages/hotels_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/pages/hotels_page.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/searchFlight.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/searchFlight.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/step_definitions/hotels_page_step.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/hotels_page_step.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/support/env.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/env.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +17,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/searchHotel.feature">
+        <entry file="file://$PROJECT_DIR$/features/header.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/hotels_page_step.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -32,20 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/hotels_page_step.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/test_data/test_data.yml">
+        <entry file="file://$PROJECT_DIR$/gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="45" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="45" />
+            <state relative-caret-position="292">
+              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -62,14 +64,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/pages/hotels_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="172" column="23" selection-start-line="172" selection-start-column="6" selection-end-line="172" selection-end-column="23" />
+            <state relative-caret-position="125">
+              <caret line="133" column="4" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.3/gems/watir-webdriver-0.9.9/lib/watir-webdriver/wait.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
@@ -78,19 +80,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/userSettings.feature">
+        <entry file="file://$PROJECT_DIR$/features/support/test_data/test_data.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/header.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="15">
+              <caret line="1" column="45" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -98,8 +91,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/footer.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -132,7 +134,6 @@
         <option value="$PROJECT_DIR$/features/support/test_data/search_test_data.yml" />
         <option value="$PROJECT_DIR$/features/support/lib/common.rb" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/gitignore" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/features/support/lib/logger.rb" />
         <option value="$PROJECT_DIR$/features/support/test_data/test_data.yml" />
@@ -142,13 +143,14 @@
         <option value="$PROJECT_DIR$/features/pages/flights_page.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/flights_page_step.rb" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
-        <option value="$PROJECT_DIR$/features/searchFlight.feature" />
         <option value="$PROJECT_DIR$/features/userSettings.feature" />
         <option value="$PROJECT_DIR$/features/footer.feature" />
         <option value="$PROJECT_DIR$/features/searchHotel.feature" />
         <option value="$PROJECT_DIR$/features/header.feature" />
-        <option value="$PROJECT_DIR$/features/pages/hotels_page.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/hotels_page_step.rb" />
+        <option value="$PROJECT_DIR$/gitignore" />
+        <option value="$PROJECT_DIR$/features/searchFlight.feature" />
+        <option value="$PROJECT_DIR$/features/pages/hotels_page.rb" />
       </list>
     </option>
   </component>
@@ -209,11 +211,6 @@
               <item name="support" type="462c0819:PsiDirectoryNode" />
               <item name="test_data" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="travelpayouts_qa_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travelpayouts_qa_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -249,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber.header.feature">
+  <component name="RunManager" selected="Cucumber.searchFlight.feature">
     <configuration name="footer.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <module name="cucumber-test" />
       <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
@@ -432,10 +429,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber.header.feature" />
-        <item itemvalue="Cucumber.footer.feature" />
-        <item itemvalue="Cucumber.userSettings.feature" />
         <item itemvalue="Cucumber.searchFlight.feature" />
+        <item itemvalue="Cucumber.footer.feature" />
+        <item itemvalue="Cucumber.header.feature" />
+        <item itemvalue="Cucumber.userSettings.feature" />
         <item itemvalue="Cucumber.openMainPage.feature" />
       </list>
     </recent_temporary>
@@ -454,44 +451,44 @@
       <workItem from="1557434865188" duration="4655000" />
       <workItem from="1557466014409" duration="564000" />
       <workItem from="1557521881468" duration="31394000" />
-      <workItem from="1557860471169" duration="21585000" />
+      <workItem from="1557860471169" duration="26860000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="userSettings_feature - 2019.05.16 at 20h 11m 57s.xml">
-      <configuration name="userSettings.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="searchFlight_feature - 2019.05.16 at 23h 34m 19s.xml">
+      <configuration name="searchFlight.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="userSettings_feature - 2019.05.16 at 20h 20m 44s.xml">
-      <configuration name="userSettings.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="searchFlight_feature - 2019.05.16 at 23h 35m 43s.xml">
+      <configuration name="searchFlight.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="userSettings_feature - 2019.05.16 at 20h 22m 11s.xml">
-      <configuration name="userSettings.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="searchFlight_feature - 2019.05.16 at 23h 38m 14s.xml">
+      <configuration name="searchFlight.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="userSettings_feature - 2019.05.16 at 20h 24m 15s.xml">
-      <configuration name="userSettings.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="searchFlight_feature - 2019.05.16 at 23h 39m 34s.xml">
+      <configuration name="searchFlight.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="userSettings_feature - 2019.05.16 at 20h 25m 19s.xml">
-      <configuration name="userSettings.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="searchFlight_feature - 2019.05.16 at 23h 46m 17s.xml">
+      <configuration name="searchFlight.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="footer_feature - 2019.05.16 at 20h 36m 23s.xml">
-      <configuration name="footer.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="searchFlight_feature - 2019.05.16 at 23h 50m 16s.xml">
+      <configuration name="searchFlight.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="footer_feature - 2019.05.16 at 20h 37m 45s.xml">
-      <configuration name="footer.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="searchFlight_feature - 2019.05.16 at 23h 50m 59s.xml">
+      <configuration name="searchFlight.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="footer_feature - 2019.05.16 at 20h 40m 19s.xml">
-      <configuration name="footer.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="searchFlight_feature - 2019.05.16 at 23h 52m 14s.xml">
+      <configuration name="searchFlight.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="footer_feature - 2019.05.16 at 20h 41m 17s.xml">
-      <configuration name="footer.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="searchFlight_feature - 2019.05.16 at 23h 54m 52s.xml">
+      <configuration name="searchFlight.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="footer_feature - 2019.05.16 at 20h 42m 25s.xml">
-      <configuration name="footer.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="searchFlight_feature - 2019.05.16 at 23h 55m 47s.xml">
+      <configuration name="searchFlight.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58198000" />
+    <option name="totallyTimeSpent" value="63473000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -504,14 +501,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="698" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35148516" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -556,8 +552,8 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/travelpayouts_qa_automation@travelpayouts_page.rcov" NAME="travelpayouts_page Coverage Results" MODIFIED="1557595295555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/pages" MODULE_NAME="cucumber-test" />
     <SUITE FILE_PATH="coverage/travelpayouts_qa_automation@userSettings_feature.rcov" NAME="userSettings.feature Coverage Results" MODIFIED="1558031076033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber-test" />
-    <SUITE FILE_PATH="coverage/travelpayouts_qa_automation@searchFlight_feature.rcov" NAME="searchFlight.feature Coverage Results" MODIFIED="1557957608032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber-test" />
-    <SUITE FILE_PATH="coverage/travelpayouts_qa_automation@footer_feature.rcov" NAME="footer.feature Coverage Results" MODIFIED="1558032134633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber-test" />
+    <SUITE FILE_PATH="coverage/travelpayouts_qa_automation@footer_feature.rcov" NAME="footer.feature Coverage Results" MODIFIED="1558034003867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber-test" />
+    <SUITE FILE_PATH="coverage/travelpayouts_qa_automation@searchFlight_feature.rcov" NAME="searchFlight.feature Coverage Results" MODIFIED="1558043706446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber-test" />
     <SUITE FILE_PATH="coverage/travelpayouts_qa_automation@openMainPage_feature.rcov" NAME="openMainPage.feature Coverage Results" MODIFIED="1557944775930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber-test" />
     <SUITE FILE_PATH="coverage/cucumber_test@openMainPage_feature.rcov" NAME="openMainPage.feature Coverage Results" MODIFIED="1557439417050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber-test" />
     <SUITE FILE_PATH="coverage/cucumber_test@amazonsearch_feature.rcov" NAME="amazonsearch.feature Coverage Results" MODIFIED="1557437024060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber-test" />
@@ -728,48 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/lib/common.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="66" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/test_data/test_data.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="45" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/footer.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/searchFlight.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/searchHotel.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -784,24 +738,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/pages/hotels_page.rb">
+    <entry file="file://$PROJECT_DIR$/features/footer.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="172" column="23" selection-start-line="172" selection-start-column="6" selection-end-line="172" selection-end-column="23" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/test_data/test_data.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="45" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/lib/common.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/header.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.3/gems/watir-webdriver-0.9.9/lib/watir-webdriver/wait.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/hotels_page_step.rb">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/hotels_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="133" column="4" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/searchFlight.feature">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>
