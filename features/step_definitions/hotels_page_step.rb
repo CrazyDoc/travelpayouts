@@ -52,6 +52,10 @@ Then(/^footer is displayed with valid content$/) do
   @travelpayouts_page.footer_validation
   end
 
+Then(/^header is displayed with valid content/) do
+  @travelpayouts_page.header_validation
+end
+
 Then(/^user closes travelpayouts page$/) do
   @travelpayouts_page.close
 end

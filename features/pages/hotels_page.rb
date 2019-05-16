@@ -169,6 +169,16 @@ end
     Watir.logger.info('Validate terms section')
     Watir.logger.info(@browser.div(css: 'div.TPWL-footer-content__descrition').text)
   end
+
+  def header_validation
+    Watir.logger.info('Verify header is shown')
+    Watir.logger.info(@browser.div(css: 'div.TPWL-header-content').text)
+    Watir.logger.info('Validate logo')
+    Watir.logger.info(@browser.div(css: 'div.TPWL-header-content__logo').text)
+    Watir.logger.info('Validate descrition section')
+    Watir.logger.info(@browser.div(css: 'div.TPWL-header-content__descrition').text)
+  end
+
   def close
     @browser.close
   end
