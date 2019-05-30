@@ -5,8 +5,8 @@ require 'watir'
 require 'page-object'
 
 Before do
-  @browser = Watir::Browser.new :chrome, headless: false
-  @browser.window.maximize
+  args = %w[headless disable-gpu disable-dev-shm-usage disable-software-rasterizer no-sandbox]
+  @browser = Watir::Browser.new :chrome, args: args
 end
 
 After do |scenario|
